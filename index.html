@@ -14,7 +14,7 @@
 	<!-- The navigation menu-->
 		<div class="navbar">
 			<div class="home">
-  			<a href="landing.html">Latitude</a> <!--Link a landing page-->
+  			<a href="index.html">Latitude</a> <!--Link a landing page-->
   			</div>
   				<div class="right-nav">
   					<div class="subnav">
@@ -26,7 +26,7 @@
      						  <a href="temperature.html">Max temperature</a>
      					</div>
      				</div>
-    	 		<a href="data.html">Data</a>
+    	 		<a href="Data.html">Data</a>
     	 		<a href="comparisons.html">Comparison</a>
     	 		</div>
     	 </div>
@@ -34,15 +34,20 @@
 
 <main>
   <div class="container">
-  	<img class="image" src="img/beach.png">
-    
-    <h1>Explanation of the project</h1>
+  	<img class="image" src="img/beach.png" alt="beach">
+</div> <!--container-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1"></div>
+		  	<div class="col-md-6">
+           	<h1>Explanation of the project</h1>
      
     	<div class="text">
-    		<p>Latitude Analysis evaluate the behavior of the weather when a city is closed to the equator.</p><br>
-    		<p>A random of 500 cities were selected to evaluate the weather pattern. The dataset was extracted from “OpenWeatherMap.org” website using Python-API (CityPy Python Library) </p><br>
-    		<p>The dataset was analyzing using Pandas and Matplotlib Python libraries </p><br>
-   			 <p>Max Temperature, Humidity, Cloudiness, and Wind Speed variables were analyzed as well a comparison between Southern and Northern hemisphere. </p><br>
+    		<p class="text1">Latitude Analysis evaluate the behavior of the weather when a city is closed to the equator.<br>
+			A random of 500 cities were selected to evaluate the weather pattern. <br>
+			The dataset was extracted from “OpenWeatherMap.org” website using Python-API (CityPy Python Library) <br>
+			The dataset was analyzing using Pandas and Matplotlib Python libraries. Max Temperature, Humidity, Cloudiness, <br>
+			and Wind Speed variables were analyzed  as well a comparison between Southern and Northern hemisphere. </p><br>
 
     		<p class="text2">Latitude with attitude dashboard shows:</p><br>
     		<ul style="list-style-type:disc;">
@@ -50,8 +55,48 @@
   				<li>Max Temperature, Humidity, Cloudiness, and Wind Speed visualization and results.</li>
   				<li>Cities on Southern and Northern hemisphere comparison. </li>
 			</ul>
-	</div> <!-- text -->
-  </div> <!--container-->
+		</div> <!-- text -->
+	  </div> <!--container-->
+<!--container -->
+<!-- Visualization-->
+
+<div class="container1">
+    <div class="sidebar">
+		<div class="row2">
+		  <div class="col-md-2">
+			<h1>Visualizations</h1>
+		  </div> <!--col-md-2-->
+		</div> <!--row-->
+  
+		<div class="row2">
+		  <div class="col-md-3">
+			<a href="temperature.html">
+			  <img src="img/CityLatitudeVsTemperature.png" width="250px">
+			</a>
+			
+		  </div> <!--col-md-3-->
+		  <div class="col-md-3">
+			<a href="cloudiness.html">
+			  <img  src="img/CityLatitudeVsCloudiness.png" alt="CityLatitudeVsCloudiness" width="250px">
+			</a>
+		  </div> <!--col-md-3-->
+		</div> <!--row-->
+		
+		<div class="row2">
+		  <div class="col-md-3">
+			<a href="humidity.html">
+			  <img src="img/CityLatitudeVsHumidity.png" width="250px">
+			</a>
+			
+		  </div> <!--col-md-3-->
+		  <div class="col-md-3">
+			<a href="windspeed.html">
+			  <img src="img/CityLatitudeVsWindSpeed.png" width="250px" alt="CityLatitudeVsCloudiness">
+			</a>
+		  </div> <!--col-md-3-->
+		</div> <!--row-->
+	</div> <!--sidebar-->
+</div> <!--container-->
 </main>
 
 

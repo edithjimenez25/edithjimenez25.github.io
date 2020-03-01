@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wind speed</title>
+</head>
+<body>
+
+<header>
+  <!-- The navigation menu-->
+    <div class="navbar">
+      <div class="home">
+        <a href="index.html">Latitude</a> <!--Link a landing page-->
+        </div>
+          <div class="right-nav">
+            <div class="subnav">
+              <button class="subnavbtn">Plots <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                  <a href="cloudiness.html">Cloudiness</a>
+                  <a href="humidity.html">Humidity</a>
+                  <a href="windspeed.html">Wind speed</a>
+                  <a href="temperature.html">Max temperature</a>
+              </div> <!--subnav-content-->
+            </div> <!--subnav-->
+          <a href="data.html">Data</a>
+          <a href="comparisons.html">Comparison</a>
+          </div> <!--right-nav-->
+       </div> <!--navbar-->
+       <div class="second-header">
+
+         <h4>Wind speed</h4>
+       </div> <!--2nd header-->
+    </header>
+
+
+<main>
+    <div class="container2">
+  <div class="row2">
+    <div class="col-md-1">
+      <h1>Wind Speed</h1>
+      <img src="img/CityLatitudeVsWindSpeed.png" alt="CityLatitudeVsHumidity">
+      <p>There is no strong relationship between latitude and wind speed. 
+Wind speed tends to generally be between 0 and 15 mph regardless of latitude. In northern hemispheres, there are small amount of cities with wind speed over 20 mph. There is one city on the extreme south latitude with wind speed close to 45 mph.
+
+</p>
+    </div> <!--col-md-1-->
+
+    <div class="sidebar">
+      <div class="row2">
+        <div class="col-md-2">
+          <h1>Visualizations</h1>
+        </div> <!--col-md-2-->
+      </div> <!--row-->
+
+      <div class="row2">
+        <div class="col-md-3">
+          <a href="temperature.html">
+            <img src="img/CityLatitudeVsTemperature.png" width="250px">
+          </a>
+          
+        </div> <!--col-md-3-->
+        <div class="col-md-3">
+          <a href="cloudiness.html">
+            <img  src="img/CityLatitudeVsCloudiness.png" alt="CityLatitudeVsCloudiness" width="250px">
+          </a>
+        </div> <!--col-md-3-->
+      </div> <!--row-->
+      
+      <div class="row2">
+        <div class="col-md-3">
+          <a href="humidity.html">
+            <img src="img/CityLatitudeVsHumidity.png" width="250px">
+          </a>
+          
+        </div> <!--col-md-3-->
+        <div class="col-md-3">
+          <a href="windspeed.html">
+            <img class="selected" src="img/CityLatitudeVsWindSpeed.png" width="250px" alt="CityLatitudeVsCloudiness">
+          </a>
+        </div> <!--col-md-3-->
+      </div> <!--row-->
+    </div> <!--sidebar-->
+      
+    </div>
+    
+  </div>
+  
+</div>
+</body>
+</html>
